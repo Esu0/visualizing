@@ -17,12 +17,6 @@ namespace visualizing
             InitializeComponent();
         }
 
-        private void stk_que_Click(object sender, EventArgs e)
-        {
-            Video form = new Video("stk_que");
-            form.ShowDialog();
-        }
-
         private void qsort_Click(object sender, EventArgs e)
         {
             Video form = new Video("qsort");

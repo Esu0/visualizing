@@ -50,7 +50,7 @@
             this.qsort.Name = "qsort";
             this.qsort.Size = new System.Drawing.Size(200, 50);
             this.qsort.TabIndex = 1;
-            this.qsort.Text = "ソートアルゴリズム";
+            this.qsort.Text = "クイックソート";
             this.qsort.UseVisualStyleBackColor = true;
             this.qsort.Click += new System.EventHandler(this.qsort_Click);
             // 
