@@ -23,9 +23,15 @@ namespace visualizing
             form.ShowDialog();
         }
 
-        private void sort_Click(object sender, EventArgs e)
+        private void qsort_Click(object sender, EventArgs e)
         {
-            Video form = new Video("sort");
+            Video form = new Video("qsort");
+            form.ShowDialog();
+        }
+
+        private void msort_Click(object sender, EventArgs e)
+        {
+            Video form = new Video("msort");
             form.ShowDialog();
         }
     }

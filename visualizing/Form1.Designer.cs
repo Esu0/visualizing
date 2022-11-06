@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.stk_que = new System.Windows.Forms.Button();
-            this.sort = new System.Windows.Forms.Button();
+            this.qsort = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // stk_que
@@ -39,27 +39,27 @@
             this.stk_que.Name = "stk_que";
             this.stk_que.Size = new System.Drawing.Size(200, 50);
             this.stk_que.TabIndex = 0;
-            this.stk_que.Text = "スタックとキュー";
+            this.stk_que.Text = "マージソート";
             this.stk_que.UseVisualStyleBackColor = true;
-            this.stk_que.Click += new System.EventHandler(this.stk_que_Click);
+            this.stk_que.Click += new System.EventHandler(this.msort_Click);
             // 
-            // sort
+            // qsort
             // 
-            this.sort.Font = new System.Drawing.Font("游ゴシック", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.sort.Location = new System.Drawing.Point(218, 12);
-            this.sort.Name = "sort";
-            this.sort.Size = new System.Drawing.Size(200, 50);
-            this.sort.TabIndex = 1;
-            this.sort.Text = "ソートアルゴリズム";
-            this.sort.UseVisualStyleBackColor = true;
-            this.sort.Click += new System.EventHandler(this.sort_Click);
+            this.qsort.Font = new System.Drawing.Font("游ゴシック", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.qsort.Location = new System.Drawing.Point(218, 12);
+            this.qsort.Name = "qsort";
+            this.qsort.Size = new System.Drawing.Size(200, 50);
+            this.qsort.TabIndex = 1;
+            this.qsort.Text = "ソートアルゴリズム";
+            this.qsort.UseVisualStyleBackColor = true;
+            this.qsort.Click += new System.EventHandler(this.qsort_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(431, 75);
-            this.Controls.Add(this.sort);
+            this.Controls.Add(this.qsort);
             this.Controls.Add(this.stk_que);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -70,7 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Button stk_que;
-        private System.Windows.Forms.Button sort;
+        private System.Windows.Forms.Button qsort;
     }
 }
 
